@@ -1,0 +1,26 @@
+.destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5rem;
+    background-color: #fff5eb;
+}
+
+.destaque-titulo {
+    font-family: 'Sigmar', sans-serif;
+    font-size: 4.5rem;
+    line-height: 5.85rem;
+
+    color: #ee5461;
+}
+
+.destaque-titulo>span {
+    color: #a2b72b;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

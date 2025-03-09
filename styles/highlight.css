@@ -3,20 +3,16 @@
     justify-content: center;
     align-items: center;
 
-    padding: 5rem;
-    background-color: #fff5eb;
+    padding: var(--padding-5xl);
+    background-color: var(--color-secondary-light);
 }
 
 .destaque-titulo {
-    font-family: 'Sigmar', sans-serif;
-    font-size: 4.5rem;
-    line-height: 5.85rem;
-
-    color: #ee5461;
+    color: var(--color-primary-light);
 }
 
 .destaque-titulo>span {
-    color: #a2b72b;
+    color: var(--color-tertiary-dark);
 }
 
 .banner {

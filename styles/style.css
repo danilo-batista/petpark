@@ -1,15 +1,94 @@
 @import url('./header.css');
 @import url('./highlight.css');
 
+:root {
+    /* Colors */
+    --color-primary-dark: #c13724;
+    --color-primary-light: #ee6451;
+    --color-secondary-dark: #f5e6d6;
+    --color-secondary-light: #fff5eb;
+    --color-tertiary-dark: #a2b72b;
+    --color-tertiary-medium: #cbda74;
+    --color-tertiary-light: #eff2e1;
+    --color-neutral-dark: #444444;
+    --color-neutral-medium: #b9b9b9;
+    --color-neutral-light: #ffffff;
+
+    /* Types */
+    --font-sigmar: "Sigmar", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+
+    /* Type sizes */
+    --font-size-s: 0.813rem;
+    --font-size-b: 1rem;
+    --font-size-m: 1.25rem;
+    --font-size-xm: 1.563rem;
+    --font-size-l: 1.938rem;
+    --font-size-1xl: 2.438rem;
+    --font-size-2xl: 2.625rem;
+    --font-size-3xl: 4.5rem;
+
+    /* Line height */
+    --line-height: 120%;
+
+    /* Spacing */
+    --padding-xs: 0.25rem;
+    --padding-s: 0.5rem;
+    --padding-m: 1rem;
+    --padding-l: 1.5rem;
+    --padding-1xl: 2rem;
+    --padding-2xl: 2.5rem;
+    --padding-3xl: 3.75rem;
+    --padding-4xl: 4rem;
+    --padding-5xl: 4.75rem;
+
+    --gap-xs: 0.25rem;
+    --gap-s: 0.5rem;
+    --gap-m: 1rem;
+    --gap-l: 1.5rem;
+    --gap-1xl: 2rem;
+    --gap-2xl: 2.5rem;
+    --gap-3xl: 6rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--font-sigmar);
+    line-height: var(--line-height);
+}
+
+h1 {
+    font-size: var(--font-size-3xl);
+}
+
+h2 {
+    font-size: var(--font-size-2xl);
+}
+
+h3 {
+    font-size: var(--font-size-1xl);
+}
+
+h4 {
+    font-size: var(--font-size-l);
+}
+
+h5 {
+    font-size: var(--font-size-xm);
+}
+
 body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
 
-    background-color: #ffffff;
-    color: #444444;
+    background-color: var(--color-neutral-light);
+    color: var(--color-neutral-dark);
 
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-poppins);
 
     .container {
         width: 1200px;

@@ -1,0 +1,71 @@
+.planos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--padding-5xl);
+}
+
+.planos-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-xl);
+    padding: var(--padding-1xl);
+
+    background-color: var(--color-primary-light);
+    border-radius: 2rem;
+}
+
+.planos-titulo {
+    color: var(--color-secondary-light);
+    margin-bottom: 1.75rem;
+}
+
+.lista-planos {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap-1xl);
+
+    padding: 0 var(--padding-5xl);
+}
+
+.cartao {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-m);
+
+    padding: var(--padding-m);
+
+    border-radius: 1rem;
+    background-color: var(--color-neutral-light);
+}
+
+.cartao>h3 {
+    font-size: var(--font-size-l);
+}
+
+.cartao>p {
+    text-align: center;
+}
+
+.cartao>span {
+    font-family: var(--font-sigmar);
+    font-size: var(--font-size-1xl);
+    color: var(--color-primary-light);
+}
+
+.botao-compra {
+    padding: var(--padding-s) var(--padding-l);
+
+    background-color: var(--color-primary-light);
+    color: var(--color-neutral-light);
+
+    border: none;
+    border-radius: 2rem;
+
+    font-size: var(--font-size-m);
+}

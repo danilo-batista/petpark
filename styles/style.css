@@ -1,6 +1,7 @@
 @import url('./header.css');
 @import url('./highlight.css');
 @import url('./services.css');
+@import url('./subscription.css');
 
 :root {
     /* Colors */

@@ -1,0 +1,103 @@
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-1xl);
+
+    width: 100%;
+    padding: var(--padding-4xl) 0;
+
+    background-color: var(--color-secondary-light);
+}
+
+.newsletter h2 {
+    color: var(--color-primary-light);
+}
+
+.newsletter p {
+    font-size: var(--font-size-xm);
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-l);
+}
+
+.botao-enviar {
+    padding: var(--padding-s) var(--padding-l);
+
+    background-color: var(--color-primary-light);
+    color: var(--color-neutral-light);
+
+    border: none;
+    border-radius: 32rem;
+    cursor: pointer;
+
+    font-size: var(--font-size-m);
+}
+
+.formulario-input {
+    flex: 1 0 200px;
+    padding: var(--padding-s) var(--padding-l);
+
+    background: transparent;
+    border: 1px solid var(--color-neutral-dark);
+    border-radius: 2rem;
+}
+
+.formulario-input:user-valid {
+    border: 2px solid var(--color-tertiary-dark);
+}
+
+.formulario-input:user-invalid {
+    border: 2px solid var(--color-primary-dark);
+}
+
+.grupo-opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gap-m);
+    flex-wrap: wrap;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+
+    padding: 0 var(--padding-s) 0 var(--padding-1xl);
+
+    position: relative;
+    cursor: pointer;
+}
+
+.opcao input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.opcao input[type="checkbox"]+span {
+    position: absolute;
+    left: 0;
+
+    width: 19px;
+    height: 19px;
+
+    border: 1px solid var(--color-neutral-light);
+    background-color: transparent;
+    border-radius: 0.25rem;
+
+    outline-style: solid;
+    outline-width: 1px;
+    outline-offset: 2px;
+    outline-color: var(--color-neutral-dark);
+}
+
+.opcao input[type="checkbox"]:checked+span {
+    background-color: var(--color-primary-light);
+}

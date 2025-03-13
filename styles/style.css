@@ -4,6 +4,7 @@
 @import url('./subscription.css');
 @import url('./offers.css');
 @import url('./partners.css');
+@import url('./newsletter.css');
 
 :root {
     /* Colors */
@@ -17,7 +18,7 @@
     --color-neutral-dark: #444444;
     --color-neutral-medium: #b9b9b9;
     --color-neutral-light: #ffffff;
-    
+
     --color-primary-box-shadow: rgba(193, 55, 36, 0.4);
     --color-secondary-box-shadow: rgba(162, 183, 43, 0.4);
 

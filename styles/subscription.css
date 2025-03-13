@@ -21,6 +21,10 @@
 .planos-titulo {
     color: var(--color-secondary-light);
     margin-bottom: 1.75rem;
+
+    @media (max-width: 768px) {
+        text-align: center;
+    }
 }
 
 .lista-planos {
@@ -29,6 +33,12 @@
     gap: var(--gap-1xl);
 
     padding: 0 var(--padding-5xl);
+
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .cartao {
@@ -42,6 +52,10 @@
 
     border-radius: 1rem;
     background-color: var(--color-neutral-light);
+
+    @media (max-width: 768px) {
+        width: 50%;
+    }
 }
 
 .cartao>h3 {

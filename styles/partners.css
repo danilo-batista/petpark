@@ -21,6 +21,10 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap-l) var(--gap-3xl);
+
+    @media (max-width: 768px) {
+        gap: var(--gap-2xl);
+    }
 }
 
 .lista-parceiros>div {

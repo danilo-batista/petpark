@@ -5,6 +5,7 @@
 @import url('./offers.css');
 @import url('./partners.css');
 @import url('./newsletter.css');
+@import url('./footer.css');
 
 :root {
     /* Colors */
@@ -97,8 +98,13 @@ body {
     color: var(--color-neutral-dark);
 
     font-family: var(--font-poppins);
+}
 
-    .container {
-        width: 1200px;
+
+.container {
+    width: 1200px;
+
+    @media (max-width: 768px) {
+        width: 648px;
     }
 }

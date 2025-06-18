@@ -37,14 +37,6 @@ Para executar o projeto em seu ambiente local, siga estas etapas:
 5. Abra o arquivo index.html no seu navegador, iniciando assim o projeto localmente
 
 
-## 📚 Mais informações do curso
-
-Gostou do projeto e quer conhecer mais?
-
-O design e protótipo deste projeto podem ser encontrados [aqui](https://www.figma.com/design/nN4dJfqtIAFmY2TpC4Vwx8/Petpark-%7C-CSS-seletores-avan%C3%A7ados?node-id=127-2472&t=d5Qjt4b46aSi76KF-0). 
-
-Aproveite o desenvolvimento e aprimoramento do site do Pet park!
-
 <br />
 
 <h2> 📫 Como entrar em contato comigo <span style="font-size: 1rem; padding: 0.5rem">😄 <em>(Ele/Dele)</em></span></h2>
